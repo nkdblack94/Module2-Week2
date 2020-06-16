@@ -1,4 +1,4 @@
-package systemOfGeometricObjects;
+package inheritance.CircleAndCylinder.systemOfGeometricObjects;
 
 public class Square extends Rectangle {
 

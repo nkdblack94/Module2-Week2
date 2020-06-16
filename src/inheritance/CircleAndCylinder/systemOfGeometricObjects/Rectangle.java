@@ -1,4 +1,4 @@
-package systemOfGeometricObjects;
+package inheritance.CircleAndCylinder.systemOfGeometricObjects;
 
 public class Rectangle extends Shape {
     private double width = 1;

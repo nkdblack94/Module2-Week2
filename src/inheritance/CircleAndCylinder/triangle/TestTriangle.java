@@ -1,4 +1,4 @@
-package triangle;
+package inheritance.CircleAndCylinder.triangle;
 
 public class TestTriangle {
     public static void main(String[] args) {

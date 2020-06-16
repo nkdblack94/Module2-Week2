@@ -1,4 +1,4 @@
-package systemOfGeometricObjects;
+package inheritance.CircleAndCylinder.systemOfGeometricObjects;
 
 public class TestCircle {
     public static void main(String[] args) {

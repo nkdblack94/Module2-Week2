@@ -1,6 +1,6 @@
-package triangle;
+package inheritance.CircleAndCylinder.triangle;
 
-import systemOfGeometricObjects.Shape;
+import inheritance.CircleAndCylinder.systemOfGeometricObjects.Shape;
 
 public class Triangle extends Shape{
     private double size1 = 1;

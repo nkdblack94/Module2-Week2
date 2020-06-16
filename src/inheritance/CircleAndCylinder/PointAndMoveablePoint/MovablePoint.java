@@ -1,4 +1,4 @@
-package PointAndMoveablePoint;
+package inheritance.CircleAndCylinder.PointAndMoveablePoint;
 
 public class MovablePoint extends Point {
     private float xSpeed;

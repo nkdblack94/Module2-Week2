@@ -1,4 +1,4 @@
-package systemOfGeometricObjects;
+package inheritance.CircleAndCylinder.systemOfGeometricObjects;
 
 public class Circle extends Shape {
     private double radius = 1;

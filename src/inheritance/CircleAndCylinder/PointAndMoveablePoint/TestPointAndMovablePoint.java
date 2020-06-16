@@ -1,4 +1,4 @@
-package PointAndMoveablePoint;
+package inheritance.CircleAndCylinder.PointAndMoveablePoint;
 
 public class TestPointAndMovablePoint {
     public static void main(String[] args) {
