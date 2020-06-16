@@ -1,4 +1,4 @@
-package Point2DAndPoint3D;
+package inheritance.CircleAndCylinder.Point2DAndPoint3D;
 
 public class Point2D {
     private float x;
