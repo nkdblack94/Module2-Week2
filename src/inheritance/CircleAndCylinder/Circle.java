@@ -1,14 +1,29 @@
-package CircleAndCylinder;
+package inheritance.CircleAndCylinder;
 
 public class Circle {
     private double radius;
     private String color;
+    private boolean filled;
 
     public Circle(){}
 
     public Circle(double radius, String color){
         this.radius = radius;
         this.color = color;
+    }
+
+    public Circle(double radius, String color, boolean filled){
+        this.radius = radius;
+        this.color = color;
+        this.filled = filled;
+    }
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    public boolean isFilled() {
+        return filled;
     }
 
     public double getRadius() {
@@ -33,6 +48,6 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "A Circle with radius = " + getRadius() + " and Area = " + getArea();
+        return "A Circle with radius = " + getRadius() + " and Area = " + getArea() + " end Color " + getColor();
     }
 }
