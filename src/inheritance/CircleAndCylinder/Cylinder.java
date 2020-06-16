@@ -3,8 +3,10 @@ package inheritance.CircleAndCylinder;
 public class Cylinder extends Circle {
     private double height;
 
-    public Cylinder (){
-        super(3.5, "indigo", false);
+    public Cylinder (){}
+
+    public Cylinder(double radius){
+        super(radius);
     }
 
     public Cylinder (double radius, String color,double height){
